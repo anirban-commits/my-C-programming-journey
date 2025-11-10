@@ -23,7 +23,7 @@ int main(){
         return 0;
     }
     deleted_element = arr[position - 1];
-    for (i = position - 1; i < size - 1; i++){
+    for (i = position - 1; i <= size - 1; i++){
         arr[i] = arr[i + 1];
     }
     size--;

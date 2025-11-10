@@ -20,7 +20,7 @@ int main(){
     scanf("%d", &position);
     printf("Enter the value of the insertion:");
     scanf("%d", &value);
-    for (int i = size - 1; i <= position - 1; i--){
+    for (int i = size - 1; i >= position - 1; i--){
         arr[i+1] = arr[i];
     }
     arr[position - 1] = value;
