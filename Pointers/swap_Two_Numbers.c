@@ -7,7 +7,7 @@ void swap(int *a, int *b){
 }
 int main(){
     int x, y;
-    printf("=== User Input Section ===");
+    printf("\n=== User Input Section ===");
     printf("\nEnter the first number:");
     scanf("%d", &x);
     printf("Enter the second number:");

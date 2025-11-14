@@ -13,8 +13,8 @@ int main(){
     }
     for (i = 0; i <= length/2; i++){
         temp = str[i];
-        str[i] = str[length - 1 - i];
-        str[length - 1 - i] = temp;
+        str[i] = str[length - i - 1];
+        str[length - i - 1] = temp;
     }
     printf("\nThe reversed string is:");
     for (i = 0; i < length; i++){
