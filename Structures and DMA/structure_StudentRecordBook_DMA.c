@@ -39,8 +39,8 @@ int main(){
         scanf("%f", &studentNum[i].mst1Marks);
     }
     printf("\n=== Display Student Details Section ===\n");
-    printf("%-15s %-10s %-10s %-10s %-10s\n", "Name", "Section", "Group", "Section", "UID", "Marks of MST 1 (out of 20)");
-    printf("------------------------------------------------------\n");
+    printf("%-15s %-10s %-10s %-10s %-10s\n", "Name", "Section", "Group", "UID", "Marks of MST 1 (out of 20)");
+    printf("---------------------------------------------------------------------------\n");
     for(i = 0; i < num; i++){
         printf("%-15s %-10d %-10c %-10d %-10.2f\n", 
             studentNum[i].name, 
